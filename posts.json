@@ -1,0 +1,15 @@
+[
+  {
+    "file": "example.md",
+    "title": "첫 번째 게시글",
+    "date": "2025-01-26",
+    "tags": [
+      "JavaScript",
+      "Web",
+      "블로그"
+    ],
+    "category": "Development",
+    "description": "GitHub Pages 블로그의 첫 번째 샘플 게시글입니다.",
+    "excerpt": "이것은 GitHub Pages 정적 블로그의 샘플 게시글입니다. 이 블로그는 다음과 같은 기술을 사용합니다: - HTML, CSS, Vanilla JavaScript - marked.js를 사용한 마크다운 파싱 - Prism.js를 사용한 코드 하이라이팅 - Giscus를 사용한 댓글 시스템 다음은 JavaScript 코드 예시입니다: - 항목 1 - 항목..."
+  }
+]

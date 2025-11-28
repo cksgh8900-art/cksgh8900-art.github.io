@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">블로그</a></h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="테마 전환">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="post-container" class="post-container">
+            <div class="loading">게시글을 불러오는 중...</div>
+        </div>
+
+        <div id="giscus-container" class="giscus-container"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 블로그. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/post-loader.js"></script>
+</body>
+</html>
+
